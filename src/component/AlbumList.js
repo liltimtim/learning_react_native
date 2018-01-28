@@ -4,8 +4,13 @@ import { API } from '../network/api';
 export class AlbumList extends Component {
 
     componentDidMount() {
-        let json = API.getAlbums();
-        console.log(json);
+        API.getAlbums()
+        .then(albums => {
+            console.log(albums);
+        })
+        .catch(err => {
+            console.log(err);
+        });
     }
 
     render() {
