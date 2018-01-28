@@ -15,7 +15,7 @@ import {
   Header,
   Content
 } from 'native-base';
-
+import { AlbumList } from './src/component/AlbumList';
 
 export class App extends Component {
   constructor(props) {
@@ -24,7 +24,7 @@ export class App extends Component {
 
   render() {
     return (  
-      <Container />
+      <AlbumList />
     );
   }
 }

@@ -20,7 +20,8 @@ export class CustomHeader extends Component {
 
 const styles = StyleSheet.create({
     textStyle: {
-        fontSize: 20
+        fontSize: 20,
+        color: "white"
     },
     headerStyle: {
         backgroundColor: "#89f442"
