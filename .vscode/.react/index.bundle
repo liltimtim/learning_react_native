@@ -27650,7 +27650,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 __d(function (global, require, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/ActivityIndicator/ActivityIndicator.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/ActivityIndicator/ActivityIndicator.js";
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -27830,7 +27830,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _index2 = _interopRequireDefault(_index);
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/UnimplementedViews/UnimplementedView.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/UnimplementedViews/UnimplementedView.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -27849,7 +27849,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/UnimplementedViews/UnimplementedView.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/UnimplementedViews/UnimplementedView.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -33085,7 +33085,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/View/View.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/View/View.js";
 
   var NativeMethodsMixin = require(_dependencyMap[0], 'NativeMethodsMixin');
 
@@ -34468,7 +34468,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _class,
       _temp,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/ART/ReactNativeART.js",
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/ART/ReactNativeART.js",
       _class2,
       _temp2;
 
@@ -34499,7 +34499,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/ART/ReactNativeART.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/ART/ReactNativeART.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -35983,7 +35983,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _class,
       _temp,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/Button.js";
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/Button.js";
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -36000,7 +36000,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/Button.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/Button.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -36174,7 +36174,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 __d(function (global, require, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Text/Text.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Text/Text.js";
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -36426,7 +36426,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/Touchable/Touchable.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/Touchable/Touchable.js";
 
   var BoundingDimensions = require(_dependencyMap[0], 'BoundingDimensions');
 
@@ -37106,7 +37106,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _index2 = _interopRequireDefault(_index);
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/Touchable/TouchableNativeFeedback.ios.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/Touchable/TouchableNativeFeedback.ios.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -37125,7 +37125,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/Touchable/TouchableNativeFeedback.ios.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/Touchable/TouchableNativeFeedback.ios.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -37205,7 +37205,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 __d(function (global, require, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/Touchable/TouchableOpacity.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/Touchable/TouchableOpacity.js";
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -41271,7 +41271,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Animated/src/createAnimatedComponent.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Animated/src/createAnimatedComponent.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -41291,7 +41291,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Animated/src/createAnimatedComponent.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Animated/src/createAnimatedComponent.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -41483,7 +41483,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Image/Image.ios.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Image/Image.ios.js";
 
   var EdgeInsetsPropType = require(_dependencyMap[0], 'EdgeInsetsPropType');
 
@@ -41639,7 +41639,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 __d(function (global, require, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/ScrollView/ScrollView.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/ScrollView/ScrollView.js";
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -42488,7 +42488,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _index2 = _interopRequireDefault(_index);
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/ScrollView/ScrollViewStickyHeader.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/ScrollView/ScrollViewStickyHeader.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -42507,7 +42507,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/ScrollView/ScrollViewStickyHeader.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/ScrollView/ScrollViewStickyHeader.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -42878,7 +42878,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 __d(function (global, require, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/DatePicker/DatePickerIOS.ios.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/DatePicker/DatePickerIOS.ios.js";
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -43008,7 +43008,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _class,
       _temp,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Lists/FlatList.js";
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Lists/FlatList.js";
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -43027,7 +43027,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index3.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Lists/FlatList.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Lists/FlatList.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -43365,7 +43365,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _class,
       _temp2,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Lists/MetroListView.js";
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Lists/MetroListView.js";
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -43382,7 +43382,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Lists/MetroListView.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Lists/MetroListView.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -43599,7 +43599,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 __d(function (global, require, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Lists/ListView/ListView.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Lists/ListView/ListView.js";
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -44399,7 +44399,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/StaticRenderer.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/StaticRenderer.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -44484,7 +44484,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 __d(function (global, require, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/RefreshControl/RefreshControl.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/RefreshControl/RefreshControl.js";
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -44593,7 +44593,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   var _class,
       _temp,
       _initialiseProps,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Lists/VirtualizedList.js";
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Lists/VirtualizedList.js";
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -44615,7 +44615,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index3.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Lists/VirtualizedList.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Lists/VirtualizedList.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -46520,7 +46520,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Image/ImageBackground.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Image/ImageBackground.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -46541,7 +46541,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Image/ImageBackground.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Image/ImageBackground.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -46722,7 +46722,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 __d(function (global, require, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/Keyboard/KeyboardAvoidingView.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/Keyboard/KeyboardAvoidingView.js";
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -47050,7 +47050,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _class,
       _temp2,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/MaskedView/MaskedViewIOS.ios.js";
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/MaskedView/MaskedViewIOS.ios.js";
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -47069,7 +47069,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/MaskedView/MaskedViewIOS.ios.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/MaskedView/MaskedViewIOS.ios.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -47188,7 +47188,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _class,
       _temp,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Modal/Modal.js",
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Modal/Modal.js",
       _container;
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -47208,7 +47208,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Modal/Modal.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Modal/Modal.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -47418,7 +47418,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _class,
       _temp2,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/ReactNative/AppContainer.js";
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/ReactNative/AppContainer.js";
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -47435,7 +47435,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/ReactNative/AppContainer.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/ReactNative/AppContainer.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -47626,7 +47626,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   var _class,
       _temp,
       _initialiseProps,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/Inspector.js";
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/Inspector.js";
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -47643,7 +47643,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/Inspector.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/Inspector.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -47983,7 +47983,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _class,
       _temp2,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/InspectorOverlay.js";
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/InspectorOverlay.js";
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -48000,7 +48000,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/InspectorOverlay.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/InspectorOverlay.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -48125,7 +48125,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _index2 = _interopRequireDefault(_index);
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/ElementBox.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/ElementBox.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -48144,7 +48144,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/ElementBox.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/ElementBox.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -48279,7 +48279,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _index2 = _interopRequireDefault(_index);
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/BorderBox.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/BorderBox.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -48298,7 +48298,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/BorderBox.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/BorderBox.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -48415,7 +48415,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _index2 = _interopRequireDefault(_index);
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/InspectorPanel.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/InspectorPanel.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -48437,7 +48437,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/InspectorPanel.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/InspectorPanel.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -48735,7 +48735,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _class,
       _temp,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/ElementProperties.js";
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/ElementProperties.js";
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -48752,7 +48752,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/ElementProperties.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/ElementProperties.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -49020,7 +49020,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _index2 = _interopRequireDefault(_index);
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/BoxInspector.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/BoxInspector.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -49042,7 +49042,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/BoxInspector.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/BoxInspector.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -49312,7 +49312,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _index2 = _interopRequireDefault(_index);
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/StyleInspector.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/StyleInspector.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -49331,7 +49331,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/StyleInspector.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/StyleInspector.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -49472,7 +49472,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 __d(function (global, require, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/Touchable/TouchableHighlight.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/Touchable/TouchableHighlight.js";
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -49706,7 +49706,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _index2 = _interopRequireDefault(_index);
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/NetworkOverlay.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/NetworkOverlay.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -49725,7 +49725,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/NetworkOverlay.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/NetworkOverlay.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -50790,7 +50790,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _index2 = _interopRequireDefault(_index);
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/PerformanceOverlay.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/PerformanceOverlay.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -50809,7 +50809,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Inspector/PerformanceOverlay.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Inspector/PerformanceOverlay.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -50937,7 +50937,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/ReactNative/YellowBox.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/ReactNative/YellowBox.js";
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -50956,7 +50956,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/ReactNative/YellowBox.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/ReactNative/YellowBox.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -51724,7 +51724,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _class,
       _temp,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/SafeAreaView/SafeAreaView.ios.js";
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/SafeAreaView/SafeAreaView.ios.js";
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -51741,7 +51741,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/SafeAreaView/SafeAreaView.ios.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/SafeAreaView/SafeAreaView.ios.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -51815,7 +51815,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/Navigation/NavigatorIOS.ios.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/Navigation/NavigatorIOS.ios.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -51836,7 +51836,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/Navigation/NavigatorIOS.ios.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/Navigation/NavigatorIOS.ios.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -52352,7 +52352,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/StaticContainer.react.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/StaticContainer.react.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -52410,7 +52410,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
       _temp,
       _class2,
       _temp2,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/Picker/Picker.js";
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/Picker/Picker.js";
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -52432,7 +52432,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/Picker/Picker.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/Picker/Picker.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -52571,7 +52571,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/Picker/PickerIOS.ios.js",
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/Picker/PickerIOS.ios.js",
       _class,
       _temp;
 
@@ -52590,7 +52590,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/Picker/PickerIOS.ios.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/Picker/PickerIOS.ios.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -52756,7 +52756,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 __d(function (global, require, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/ProgressViewIOS/ProgressViewIOS.ios.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/ProgressViewIOS/ProgressViewIOS.ios.js";
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -52820,7 +52820,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _class,
       _temp2,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Lists/SectionList.js";
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Lists/SectionList.js";
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -52839,7 +52839,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Lists/SectionList.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Lists/SectionList.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -52966,7 +52966,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _class,
       _temp,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Lists/VirtualizedSectionList.js";
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Lists/VirtualizedSectionList.js";
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -52986,7 +52986,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Lists/VirtualizedSectionList.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Lists/VirtualizedSectionList.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -53428,7 +53428,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 __d(function (global, require, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/SegmentedControlIOS/SegmentedControlIOS.ios.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/SegmentedControlIOS/SegmentedControlIOS.ios.js";
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -53492,7 +53492,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 __d(function (global, require, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/Slider/Slider.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/Slider/Slider.js";
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -53640,7 +53640,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _class,
       _temp2,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/RCTTest/SnapshotViewIOS.ios.js";
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/RCTTest/SnapshotViewIOS.ios.js";
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -53657,7 +53657,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/RCTTest/SnapshotViewIOS.ios.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/RCTTest/SnapshotViewIOS.ios.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -53740,7 +53740,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 __d(function (global, require, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/Switch/Switch.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/Switch/Switch.js";
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -53887,7 +53887,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/StatusBar/StatusBar.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/StatusBar/StatusBar.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -54132,7 +54132,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _class,
       _temp,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableFlatList.js";
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableFlatList.js";
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -54149,7 +54149,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableFlatList.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableFlatList.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -54315,7 +54315,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableRow.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableRow.js";
 
   var Animated = require(_dependencyMap[0], 'Animated');
 
@@ -54785,7 +54785,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _class,
       _temp,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableListView.js";
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableListView.js";
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -54802,7 +54802,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableListView.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableListView.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -55097,7 +55097,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _class,
       _temp,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/TabBarIOS/TabBarIOS.ios.js";
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/TabBarIOS/TabBarIOS.ios.js";
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -55114,7 +55114,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/TabBarIOS/TabBarIOS.ios.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/TabBarIOS/TabBarIOS.ios.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -55210,7 +55210,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _class,
       _temp2,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/TabBarIOS/TabBarItemIOS.ios.js";
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/TabBarIOS/TabBarItemIOS.ios.js";
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -55229,7 +55229,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/TabBarIOS/TabBarItemIOS.ios.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/TabBarIOS/TabBarItemIOS.ios.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -55369,7 +55369,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 __d(function (global, require, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/TextInput/TextInput.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/TextInput/TextInput.js";
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -56398,7 +56398,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/WebView/WebView.ios.js",
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/WebView/WebView.ios.js",
       _class,
       _temp2;
 
@@ -56417,7 +56417,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/Components/WebView/WebView.ios.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/Components/WebView/WebView.ios.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -57173,7 +57173,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native/Libraries/ReactNative/renderApplication.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native/Libraries/ReactNative/renderApplication.js";
 
   function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -58769,7 +58769,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/native-base-shoutem-theme/src/connectStyle.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/native-base-shoutem-theme/src/connectStyle.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -58817,7 +58817,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/native-base-shoutem-theme/src/connectStyle.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/native-base-shoutem-theme/src/connectStyle.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -66861,7 +66861,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/native-base-shoutem-theme/src/StyleProvider.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/native-base-shoutem-theme/src/StyleProvider.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -73648,7 +73648,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native-easy-grid/Components/Row.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native-easy-grid/Components/Row.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -73677,7 +73677,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native-easy-grid/Components/Row.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native-easy-grid/Components/Row.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -73831,7 +73831,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native-easy-grid/Components/Grid.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native-easy-grid/Components/Grid.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -73868,7 +73868,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native-easy-grid/Components/Grid.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native-easy-grid/Components/Grid.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -73988,7 +73988,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native-easy-grid/Components/Col.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native-easy-grid/Components/Col.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -74017,7 +74017,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native-easy-grid/Components/Col.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native-easy-grid/Components/Col.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -79981,7 +79981,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _class,
       _temp2,
-      _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native-drawer/index.js";
+      _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native-drawer/index.js";
 
   var _propTypes = require(_dependencyMap[2], "prop-types");
 
@@ -80010,7 +80010,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native-drawer/index.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native-drawer/index.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -83099,7 +83099,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native-vector-icons/lib/create-icon-set.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native-vector-icons/lib/create-icon-set.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -83143,7 +83143,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native-vector-icons/lib/create-icon-set.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native-vector-icons/lib/create-icon-set.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -83367,7 +83367,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native-vector-icons/lib/icon-button.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native-vector-icons/lib/icon-button.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -83409,7 +83409,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native-vector-icons/lib/icon-button.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native-vector-icons/lib/icon-button.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -84355,7 +84355,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native-vector-icons/lib/tab-bar-item-ios.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native-vector-icons/lib/tab-bar-item-ios.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -84391,7 +84391,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native-vector-icons/lib/tab-bar-item-ios.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native-vector-icons/lib/tab-bar-item-ios.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -84498,7 +84498,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _index2 = _interopRequireDefault(_index);
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native-vector-icons/lib/toolbar-android.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native-vector-icons/lib/toolbar-android.js";
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -84536,7 +84536,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native-vector-icons/lib/toolbar-android.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native-vector-icons/lib/toolbar-android.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -98391,7 +98391,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native-keyboard-aware-scroll-view/lib/KeyboardAwareHOC.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native-keyboard-aware-scroll-view/lib/KeyboardAwareHOC.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -98420,7 +98420,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/node_modules/react-native-keyboard-aware-scroll-view/lib/KeyboardAwareHOC.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/node_modules/react-native-keyboard-aware-scroll-view/lib/KeyboardAwareHOC.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -102903,7 +102903,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
     var _index2 = _interopRequireDefault(_index);
 
-    var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/src/component/header.js";
+    var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/src/component/header.js";
 
     var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -102930,7 +102930,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
     };
 
     var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index2.default)({
-        filename: "/Users/timothydillman/Projects/Code/LearningReactNative/src/component/header.js",
+        filename: "/Users/timothydillman/Projects/Code/learning_react_native/src/component/header.js",
         components: _components,
         locals: [module],
         imports: [_react3.default]
@@ -103021,7 +103021,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
   var _index2 = _interopRequireDefault(_index);
 
-  var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/App.js";
+  var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/App.js";
 
   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -103044,7 +103044,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: "/Users/timothydillman/Projects/Code/LearningReactNative/App.js",
+    filename: "/Users/timothydillman/Projects/Code/learning_react_native/App.js",
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -103094,13 +103094,15 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
     var _index2 = _interopRequireDefault(_index);
 
-    var _jsxFileName = "/Users/timothydillman/Projects/Code/LearningReactNative/src/component/AlbumList.js";
+    var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/src/component/AlbumList.js";
 
     var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
     var _nativeBase = require(_dependencyMap[2], "native-base");
 
     var _api = require(_dependencyMap[3], "../network/api");
+
+    var _AlbumCard = require(_dependencyMap[4], "./AlbumCard");
 
     function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -103117,7 +103119,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
     };
 
     var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index2.default)({
-        filename: "/Users/timothydillman/Projects/Code/LearningReactNative/src/component/AlbumList.js",
+        filename: "/Users/timothydillman/Projects/Code/learning_react_native/src/component/AlbumList.js",
         components: _components,
         locals: [module],
         imports: [_react3.default]
@@ -103135,16 +103137,36 @@ __d(function (global, require, module, exports, _dependencyMap) {
         function AlbumList() {
             _classCallCheck(this, AlbumList);
 
-            return _possibleConstructorReturn(this, (AlbumList.__proto__ || Object.getPrototypeOf(AlbumList)).apply(this, arguments));
+            var _this = _possibleConstructorReturn(this, (AlbumList.__proto__ || Object.getPrototypeOf(AlbumList)).call(this));
+
+            _this.state = {
+                data: []
+            };
+            return _this;
         }
 
         _createClass(AlbumList, [{
-            key: "componentDidMount",
-            value: function componentDidMount() {
+            key: "componentWillMount",
+            value: function componentWillMount() {
+                var _this2 = this;
+
                 _api.API.getAlbums().then(function (albums) {
-                    console.log(albums);
-                }).catch(function (err) {
-                    console.log(err);
+                    _this2.setState({
+                        data: albums
+                    });
+                }).catch(function (err) {});
+            }
+        }, {
+            key: "renderItems",
+            value: function renderItems() {
+                return this.state.data.map(function (album) {
+                    return _react3.default.createElement(_AlbumCard.AlbumCard, {
+                        album: album,
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 25
+                        }
+                    });
                 });
             }
         }, {
@@ -103155,13 +103177,13 @@ __d(function (global, require, module, exports, _dependencyMap) {
                     {
                         __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 18
+                            lineNumber: 32
                         }
                     },
                     _react3.default.createElement(_nativeBase.Header, {
                         __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 19
+                            lineNumber: 33
                         }
                     }),
                     _react3.default.createElement(
@@ -103169,46 +103191,10 @@ __d(function (global, require, module, exports, _dependencyMap) {
                         {
                             __source: {
                                 fileName: _jsxFileName,
-                                lineNumber: 20
+                                lineNumber: 34
                             }
                         },
-                        _react3.default.createElement(
-                            _nativeBase.Card,
-                            {
-                                __source: {
-                                    fileName: _jsxFileName,
-                                    lineNumber: 21
-                                }
-                            },
-                            _react3.default.createElement(
-                                _nativeBase.CardItem,
-                                {
-                                    __source: {
-                                        fileName: _jsxFileName,
-                                        lineNumber: 22
-                                    }
-                                },
-                                _react3.default.createElement(
-                                    _nativeBase.Body,
-                                    {
-                                        __source: {
-                                            fileName: _jsxFileName,
-                                            lineNumber: 23
-                                        }
-                                    },
-                                    _react3.default.createElement(
-                                        _nativeBase.Text,
-                                        {
-                                            __source: {
-                                                fileName: _jsxFileName,
-                                                lineNumber: 24
-                                            }
-                                        },
-                                        "Hello"
-                                    )
-                                )
-                            )
-                        )
+                        this.renderItems()
                     )
                 );
             }
@@ -103216,7 +103202,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
 
         return AlbumList;
     }(_react2.Component));
-},705,[12,128,489,706],"albums/src/component/AlbumList.js");
+},705,[12,128,489,706,708],"albums/src/component/AlbumList.js");
 __d(function (global, require, module, exports, _dependencyMap) {
     Object.defineProperty(exports, "__esModule", {
         value: true
@@ -103271,6 +103257,108 @@ __d(function (global, require, module, exports, _dependencyMap) {
         return API;
     }();
 },706,[],"albums/src/network/api.js");
+__d(function (global, require, module, exports, _dependencyMap) {
+    Object.defineProperty(exports, "__esModule", {
+        value: true
+    });
+    exports.AlbumCard = undefined;
+
+    var _react2 = require(_dependencyMap[0], "react");
+
+    var _react3 = _interopRequireDefault(_react2);
+
+    var _index = require(_dependencyMap[1], "./../../node_modules/react-transform-hmr/lib/index.js");
+
+    var _index2 = _interopRequireDefault(_index);
+
+    var _jsxFileName = "/Users/timothydillman/Projects/Code/learning_react_native/src/component/AlbumCard.js";
+
+    var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+    var _nativeBase = require(_dependencyMap[2], "native-base");
+
+    function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+    function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+    function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+    function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+    var _components = {
+        AlbumCard: {
+            displayName: "AlbumCard"
+        }
+    };
+
+    var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index2.default)({
+        filename: "/Users/timothydillman/Projects/Code/learning_react_native/src/component/AlbumCard.js",
+        components: _components,
+        locals: [module],
+        imports: [_react3.default]
+    });
+
+    function _wrapComponent(id) {
+        return function (Component) {
+            return _node_modulesReactTransformHmrLibIndexJs2(Component, id);
+        };
+    }
+
+    var AlbumCard = exports.AlbumCard = _wrapComponent("AlbumCard")(function (_Component) {
+        _inherits(AlbumCard, _Component);
+
+        function AlbumCard() {
+            _classCallCheck(this, AlbumCard);
+
+            return _possibleConstructorReturn(this, (AlbumCard.__proto__ || Object.getPrototypeOf(AlbumCard)).apply(this, arguments));
+        }
+
+        _createClass(AlbumCard, [{
+            key: "render",
+            value: function render() {
+                return _react3.default.createElement(
+                    _nativeBase.Card,
+                    {
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 7
+                        }
+                    },
+                    _react3.default.createElement(
+                        _nativeBase.CardItem,
+                        {
+                            __source: {
+                                fileName: _jsxFileName,
+                                lineNumber: 8
+                            }
+                        },
+                        _react3.default.createElement(
+                            _nativeBase.Body,
+                            {
+                                __source: {
+                                    fileName: _jsxFileName,
+                                    lineNumber: 9
+                                }
+                            },
+                            _react3.default.createElement(
+                                _nativeBase.Text,
+                                {
+                                    __source: {
+                                        fileName: _jsxFileName,
+                                        lineNumber: 10
+                                    }
+                                },
+                                this.props.album.title
+                            )
+                        )
+                    )
+                );
+            }
+        }]);
+
+        return AlbumCard;
+    }(_react2.Component));
+},708,[12,128,489],"albums/src/component/AlbumCard.js");
 require(32);
 require(11);
 //# sourceMappingURL=index.map
