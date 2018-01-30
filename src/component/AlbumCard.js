@@ -21,7 +21,7 @@ export class AlbumCard extends Component {
                     <Body>
                         <Button iconLeft>    
                             
-                                <Icon style={{marginLeft: 16, marginRight: 8, color: 'white'}} active name='md-cloud' />
+                            <Icon style={{marginLeft: 16, marginRight: 8, color: 'white'}} active name='md-cloud' />
                             
                             <Text>Buy Now</Text>
                         </Button>
