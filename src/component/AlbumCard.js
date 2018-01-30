@@ -19,8 +19,10 @@ export class AlbumCard extends Component {
                 </CardItem>
                 <CardItem>
                     <Body>
-                        <Button>    
-                            <Icon active name='md-cloud' />
+                        <Button iconLeft>    
+                            
+                                <Icon style={{marginLeft: 16, marginRight: 8, color: 'white'}} active name='md-cloud' />
+                            
                             <Text>Buy Now</Text>
                         </Button>
                     </Body>
