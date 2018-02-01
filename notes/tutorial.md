@@ -44,3 +44,20 @@ export { Button };
 
 ## Sign In Form
 
+Remember, whenever `this.setState()` the component is re-rendered (if anything changes). 
+
+We listen for changes on the text field and `re-render` whenever we then call `this.setState()`.  This value is `saved` onto the state and the text input is then told what the input is. 
+
+
+> Components can have props just listed which makes their value === `true`
+```
+<Input
+    secureTextEntry>
+    ...
+```
+By having `secureTextEntry` listed but not defined, RN assumes this value is true. 
+In the text entry input code...
+```
+<TextInput
+    secureTextEntry={this.props.secureTextEntry}>
+```

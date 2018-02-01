@@ -15,6 +15,18 @@ export default class App extends Component {
         firebase.initializeApp(config);
     }
 
+    _handleSave(value) {
+        console.log(value);
+    }
+
+    /**
+     * 
+     * @param {{email: String, password: String}} value 
+     */
+    _handleOnLogin(value) {
+        console.log(value);
+    }
+
     render() {
         return(
             <Container>
@@ -24,7 +36,8 @@ export default class App extends Component {
                     </Body>
                 </Header>
                 <Content>
-                    <SignInForm />
+                    <SignInForm 
+                        handleLoginPressed={this._handleOnLogin.bind(this)}/>
                 </Content>
             </Container>
         );
