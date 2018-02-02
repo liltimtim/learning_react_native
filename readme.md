@@ -383,3 +383,13 @@ export default connect(null, LibraryActions)(ListItem);
 
 
 ## Animation
+
+React Native has another element called `layout animation`. 
+
+**Layout Animation**: simple library
+
+```
+componentWillUpdate() {
+    LayoutAnimation.spring();
+}
+```

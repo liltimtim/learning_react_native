@@ -105052,20 +105052,65 @@ __d(function (global, require, module, exports, _dependencyMap) {
         }
 
         _createClass(ListItem, [{
+            key: "componentWillUpdate",
+            value: function componentWillUpdate() {
+                _reactNative.LayoutAnimation.spring();
+            }
+        }, {
+            key: "_renderDescription",
+            value: function _renderDescription() {
+                var _props = this.props,
+                    expanded = _props.expanded,
+                    library = _props.library;
+
+                if (expanded) {
+                    return _react3.default.createElement(
+                        _nativeBase.CardItem,
+                        {
+                            __source: {
+                                fileName: _jsxFileName,
+                                lineNumber: 16
+                            }
+                        },
+                        _react3.default.createElement(
+                            _nativeBase.Body,
+                            {
+                                __source: {
+                                    fileName: _jsxFileName,
+                                    lineNumber: 17
+                                }
+                            },
+                            _react3.default.createElement(
+                                _nativeBase.Text,
+                                {
+                                    __source: {
+                                        fileName: _jsxFileName,
+                                        lineNumber: 18
+                                    }
+                                },
+                                library.description
+                            )
+                        )
+                    );
+                }
+            }
+        }, {
             key: "render",
             value: function render() {
-                var _this2 = this;
-
                 console.log(this.props);
+                var _props2 = this.props,
+                    library = _props2.library,
+                    expanded = _props2.expanded,
+                    selectLibrary = _props2.selectLibrary;
                 return _react3.default.createElement(
                     _reactNative.TouchableWithoutFeedback,
                     {
                         onPress: function onPress() {
-                            _this2.props.selectLibrary(_this2.props.library.id);
+                            expanded ? selectLibrary(null) : selectLibrary(library.id);
                         },
                         __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 11
+                            lineNumber: 29
                         }
                     },
                     _react3.default.createElement(
@@ -105073,7 +105118,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
                         {
                             __source: {
                                 fileName: _jsxFileName,
-                                lineNumber: 13
+                                lineNumber: 31
                             }
                         },
                         _react3.default.createElement(
@@ -105081,7 +105126,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
                             {
                                 __source: {
                                     fileName: _jsxFileName,
-                                    lineNumber: 15
+                                    lineNumber: 32
                                 }
                             },
                             _react3.default.createElement(
@@ -105089,7 +105134,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
                                 {
                                     __source: {
                                         fileName: _jsxFileName,
-                                        lineNumber: 16
+                                        lineNumber: 33
                                     }
                                 },
                                 _react3.default.createElement(
@@ -105097,13 +105142,14 @@ __d(function (global, require, module, exports, _dependencyMap) {
                                     {
                                         __source: {
                                             fileName: _jsxFileName,
-                                            lineNumber: 17
+                                            lineNumber: 34
                                         }
                                     },
-                                    this.props.library.title
+                                    library.title
                                 )
                             )
-                        )
+                        ),
+                        this._renderDescription()
                     )
                 );
             }
@@ -105112,20 +105158,30 @@ __d(function (global, require, module, exports, _dependencyMap) {
         return ListItem;
     }(_react2.Component));
 
-    exports.default = (0, _reactRedux.connect)(null, actions)(ListItem);
+    function mapStateToProps(state, ownProps) {
+        var expanded = state.selectedLibraryId === ownProps.library.id ? true : false;
+        return {
+            expanded: expanded
+        };
+    }
+
+    exports.default = (0, _reactRedux.connect)(mapStateToProps, actions)(ListItem);
 },735,[109,128,490,12,704,737],"tech_stack/src/components/ListItem.js");
 __d(function (global, require, module, exports, _dependencyMap) {
     Object.defineProperty(exports, "__esModule", {
         value: true
     });
 
-    exports.default = function (state, action) {
+    exports.default = function () {
+        var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;
+        var action = arguments[1];
+
         switch (action.type) {
             case 'select_library':
                 return action.payload;
 
             default:
-                return null;
+                return state;
         }
     };
 },736,[],"tech_stack/src/reducers/SelectionReducer.js");
