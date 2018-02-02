@@ -153,6 +153,46 @@ Store holds the state, `provider` is the glue between react and redux.
 
 > `react-redux` is what makes them place nice together.
 
+```
+import React, { Component } from 'react';
+import { View } from 'react-native';
+import { Container, Content, Header, Body, Text } from 'native-base';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import reducers from './reducers';
+
+export default class App extends Component {
+    render() {
+        return (
+            <Provider store={createStore(reducers)}>
+                <Container>
+                    <Content>
+                        <Header>
+                            <Body>
+                                <Text>Tech Stack</Text>
+                            </Body>
+                        </Header>
+                    </Content>
+                </Container>
+            </Provider>
+        );
+    }
+}
+```
+
+We created a provider and wrapped the app inside the store
+
+inside the `reducers` file is below....which is the index.js file. 
+
+> this is the starter index file and will evolve throughout the course of the tutorial. 
+```
+import { combineReducers } from 'redux';
+
+export default combineReducers({
+    libraries: () => []
+});
+```
+
 
 
 ## Lists
