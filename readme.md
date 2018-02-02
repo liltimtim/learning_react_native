@@ -193,8 +193,193 @@ export default combineReducers({
 });
 ```
 
+-------
 
+### Presenting List of Data too user via Redux
+**Data**: think `reducers` when you hear this word.  
 
+> Our `reducer` will produce a library of information for us
+
+```
+import { combineReducers } from 'redux';
+
+export default combineReducers({
+    libraries: () => []
+});
+```
+
+Whenever the reducer runs, it will return a list of 'libraries' in this case a library is a topic of technology for discussion with a brief description. 
+
+#### Types of Reducers
+Question to ask `what are the different pieces of data that are needed for the app`?
+
+1. currently selected library
+2. list of libraries
+
+> Suggest we create two reducers
+1. Library Reducer
+    * Responsible for showing list of technologies
+2. Selection Reducer
+    * Handles the current selection index
+    * Records the `id` of the current index / expanded detail 
+
+------
+### Implementation of Library Reducer
+
+```
+export default combineReducers({
+    libraries: LibraryReducer.list
+});
+```
+> The `key` is very important.  The object state will have a `key` called `libraries` and on it is an empty array. 
+
+We create a library list via .json.  This creates an arbitrary array of items for display. 
+
+```
+import data from './LibraryList.json';
+
+export default class LibraryReducer {
+    static list() {
+        return data;
+    }
+}
+```
+
+### Creating a Connect Helper
+
+**Connect Helper**: Gives discrete access to the `library list`. This allows a component to reach into the store and grab data from it. The store returns the `state`
+
+```
+export default connect()(LibraryList);
+```
+
+1. connect gets turned into a function
+2. we then call this function immediately with the component 
+
+#### Using Connect Helper
+first argument passed into `connect()` is a function
+
+```
+const mapStateToProps = state => {
+
+}
+```
+
+```
+function mapStateToProps(state) {
+    console.log(state);
+    // will set a property called 'libraries' onto the component's prop.
+    return {
+        libraries: state.libraries
+    }
+} 
+```
+
+this will now attach a `libraries` property onto the `props` object on the component. 
+
+> Whenever the store is created, all the reducers are ran 1 time to return a piece of state. This is the `initial` setup state. 
+
+We pass the state onto the `Provider`. 
+`mapStateToProps` function handles this. 
+
+**Provider**: will reach back into the state and gives it too the component. 
+
+1. Connect helpers boots
+2. Library list detects about to render asks for `state`
+3. provider grants access
+4. provider calls `mapStateToProps`
+5. props are now whatever was returned from `mapStateToProps`
+-----
 ## Lists
+```
+import { ListView } from 'react-native';
+```
+
+1. must pass in a data model for it to use. 
+
+```
+componentWillMount() {
+    // lifecycle method, component about to be rendered onto the screen
+    const datasource = new ListView.DataSource({
+        rowHasChanged: (r1, r2) => r1 !== r2
+        
+    });
+
+    this.datasource = datasource.cloneWithRows(this.props.libraries);
+}
+```
+Some boilerplate code for the list
+
+```
+import React, { Component } from 'react';
+import { ListView } from 'react-native';
+import { connect } from 'react-redux'; // get access to redux state
+import ListItem from './ListItem'
+// import {  } from 'native-base';
+
+class LibraryList extends Component {
+    componentWillMount() {
+        // lifecycle method, component about to be rendered onto the screen
+        const datasource = new ListView.DataSource({
+            rowHasChanged: (r1, r2) => r1 !== r2
+            
+        });
+
+        this.datasource = datasource.cloneWithRows(this.props.libraries);
+    }
+
+    _renderRow(library) {
+        // figures out how to render a single row
+        return <ListItem library={library} />;
+
+    }
+
+    render() {
+        return (
+            <ListView 
+                dataSource={this.datasource}
+                renderRow={this._renderRow}
+            />
+        );
+    }
+}
+
+function mapStateToProps(state) {
+    console.log(state);
+    // will set a property called 'libraries' onto the component's prop.
+    return {
+        libraries: state.libraries
+    }
+} 
+
+export default connect(mapStateToProps)(LibraryList);
+```
+----
+## Action Creator
+Components will call `Action Creator`
+
+> Inside an React project we produce `action creator`
+
+**Action Creator**: purpose is to create an action.  A javascript function that returns an action. 
+
+Example: 
+```
+export const selectLibrary = () => {
+    return {
+        type: 'select_library'
+    };
+}
+```
+
+> Have an `object` with a `type` property.  Remeber its just an `action`. 
+
+Whenever this action creator is called, an object with type is returned.
+
+```
+// we don't want to map state to props
+// we then insert all the action creators onto the `prop`
+export default connect(null, LibraryActions)(ListItem);
+```
+
 
 ## Animation

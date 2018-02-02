@@ -4,7 +4,7 @@ import { Container, Content, Header, Body, Text } from 'native-base';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import reducers from './reducers';
-
+import LibraryList from './components/LibraryList';
 export default class App extends Component {
     render() {
         return (
@@ -16,6 +16,7 @@ export default class App extends Component {
                                 <Text>Tech Stack</Text>
                             </Body>
                         </Header>
+                        <LibraryList />
                     </Content>
                 </Container>
             </Provider>
