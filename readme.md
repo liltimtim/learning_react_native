@@ -142,6 +142,18 @@ const action2 = {
 > **We never mutate the `state` we create a new object from that state and return a new object with the changes.**
 
 > Always return brand new objects from the reducer, never the `old state`.
+----
+
+## Provider and React Redux
+The provider keeps track of the store and translates all the data into something react can use. 
+
+Store holds the state, `provider` is the glue between react and redux. 
+
+> Redux wasn't specifically designed to work exclusively with `react`
+
+> `react-redux` is what makes them place nice together.
+
+
 
 ## Lists
 
