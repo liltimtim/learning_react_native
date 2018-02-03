@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardItem, Body, Left, Right, Form, Input, Item, Label, Button, Text, View, Spinner } from 'native-base';
+import { Card, CardItem, Body, Left, Right, Form, Input, Item, Label, Button, Text, View, Spinner, Content, Container } from 'native-base';
 import { StyleSheet } from 'react-native';
 import { connect } from 'react-redux';
 import { emailChanged, passwordChanged, loginUser } from '../actions';
@@ -41,31 +41,35 @@ class SignInForm extends Component {
 
     render() {
         return (
-            <Card style={styles.cardContainer}>
-                <CardItem>
-                    <Form style={{flex: 1, width: "100%"}}>
-                        <Item style={null === null ? [styles.formInputContainer, styles.itemGroupTop]:[styles.formInputContainer, styles.itemGroupTop, styles.itemInputGroupInvalid]} regular>
-                            <Input autoCapitalize={'none'} autoCorrect={false} value={this.props.email} placeholder={'example@email.com'} onChangeText={this._onEmailChange.bind(this)} />
-                        </Item>
-                        <Item style={null === null ? [styles.formInputContainer, styles.itemGroupBottom]:[styles.formInputContainer, styles.itemGroupBottom, styles.itemInputGroupInvalid]}  regular>
-                            <Input secureTextEntry={true} placeholder={'password'} value={this.props.password} onChangeText={this._onPasswordChange.bind(this)} />
-                        </Item>
-                    </Form>
-                </CardItem>
-                {this._renderError()}
-                <CardItem>
-                    <Body>
-                        <Button 
-                            block
-                                onPress={() => {
-                                    const { email, password } = this.props;
-                                    this.props.loginUser({email, password});
-                                }}>
-                            {this._renderLoading()}
-                        </Button>
-                    </Body>
-                </CardItem>
-            </Card>
+            <Container>
+                <Content>
+                <Card style={styles.cardContainer}>
+                    <CardItem>
+                        <Form style={{flex: 1, width: "100%"}}>
+                            <Item style={null === null ? [styles.formInputContainer, styles.itemGroupTop]:[styles.formInputContainer, styles.itemGroupTop, styles.itemInputGroupInvalid]} regular>
+                                <Input autoCapitalize={'none'} autoCorrect={false} value={this.props.email} placeholder={'example@email.com'} onChangeText={this._onEmailChange.bind(this)} />
+                            </Item>
+                            <Item style={null === null ? [styles.formInputContainer, styles.itemGroupBottom]:[styles.formInputContainer, styles.itemGroupBottom, styles.itemInputGroupInvalid]}  regular>
+                                <Input secureTextEntry={true} placeholder={'password'} value={this.props.password} onChangeText={this._onPasswordChange.bind(this)} />
+                            </Item>
+                        </Form>
+                    </CardItem>
+                    {this._renderError()}
+                    <CardItem>
+                        <Body>
+                            <Button 
+                                block
+                                    onPress={() => {
+                                        const { email, password } = this.props;
+                                        this.props.loginUser({email, password});
+                                    }}>
+                                {this._renderLoading()}
+                            </Button>
+                        </Body>
+                    </CardItem>
+                </Card>
+                </Content>
+            </Container>
         );
     }
 }

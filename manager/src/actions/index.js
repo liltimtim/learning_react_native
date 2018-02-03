@@ -1,5 +1,6 @@
 import * as types from './types';
 import firebase from 'firebase';
+import { Actions } from 'react-native-router-flux';
 
 export const emailChanged = (text) => {
     return {
@@ -37,7 +38,8 @@ export const loginUser = ({ email, password }) => {
         dispatch(authLoadingStateChanged(true));
         firebase.auth().signInWithEmailAndPassword(email, password)
         .then(user => { loginSuccess(dispatch, user); })
-        .catch(() => {
+        .catch((err) => {
+            console.log(err);
             firebase.auth().createUserWithEmailAndPassword(email, password)
                 .then(user => { dispatch(userAuthenticated(user)); })
                 .catch((err) => { loginUserFailed(dispatch, err); });
@@ -48,6 +50,9 @@ export const loginUser = ({ email, password }) => {
 const loginSuccess = (dispatch, user) => {
     dispatch(authLoadingStateChanged(false));
     dispatch(userAuthenticated(user));
+
+    // do not wrap Actions inside dispatch
+    Actions.main();
 }
 
 const loginUserFailed = (dispatch, error) => {
