@@ -9,7 +9,8 @@ export default class LoadingButton extends Component {
     return (
       <Button block
         onPress={this.props.onPress}
-        style={this.props.style}>
+        style={this.props.style}
+        disabled={this.props.loading}>
         {this.props.loading? <Spinner size='small' color='white' />:<Text>{this.props.buttonText}</Text>}
       </Button>
     );

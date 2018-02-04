@@ -6,6 +6,7 @@ import { Container, Content } from 'native-base';
 import SignInForm from './components/SignInForm';
 import EmployeeList from './components/EmployeeList';
 import EmployeeCreate from './components/EmployeeCreate';
+import EmployeeEdit from './components/EmployeeEdit';
 class RouterComponent extends Component {
     render() {
         return (
@@ -14,7 +15,7 @@ class RouterComponent extends Component {
                     key="root"
                     hideNavBar>
                     <Scene key="auth" initial>
-                        <Scene key="login" component={SignInForm} title="Please Login" initial/>
+                        <Scene key="login" component={SignInForm} title="Please Login"/>
                     </Scene>
                     <Scene key="main" >
                         <Scene 
@@ -26,6 +27,11 @@ class RouterComponent extends Component {
                         <Scene
                         key="createEmployee"
                         component={EmployeeCreate}
+                        />
+                        <Scene
+                        key="employeeEdit"
+                        title="Edit Employee"
+                        component={EmployeeEdit}
                         />
                     </Scene>
                 </Scene>

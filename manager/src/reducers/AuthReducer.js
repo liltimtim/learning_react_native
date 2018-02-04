@@ -1,8 +1,8 @@
 // handles anything related to authentication with the app. 
 import { EMAIL_CHANGED, PASSWORD_CHANGED, AUTH_LOADING, LOGIN_USER_SUCCESS, LOGIN_USER_ERROR } from '../actions/types';
 const INITIAL_STATE = { 
-    email: '', 
-    password: '', 
+    email: 'test@test.com', 
+    password: 'password', 
     loading: false, 
     user: null,
     error: null
