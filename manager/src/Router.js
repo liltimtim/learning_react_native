@@ -1,11 +1,11 @@
 // one single location for all components to navigate too
 
 import React, { Component } from 'react';
-import { Scene, Router } from 'react-native-router-flux';
+import { Scene, Router, Actions } from 'react-native-router-flux';
 import { Container, Content } from 'native-base';
 import SignInForm from './components/SignInForm';
 import EmployeeList from './components/EmployeeList';
-
+import EmployeeCreate from './components/EmployeeCreate';
 class RouterComponent extends Component {
     render() {
         return (
@@ -19,11 +19,14 @@ class RouterComponent extends Component {
                     <Scene key="main" >
                         <Scene 
                         rightTitle="Add"
-                        onRight={() => {}}
+                        onRight={() => { Actions.createEmployee() }}
                         key="employeeList" 
                         component={EmployeeList} 
                         title="Employees" />
-                        
+                        <Scene
+                        key="createEmployee"
+                        component={EmployeeCreate}
+                        />
                     </Scene>
                 </Scene>
             </Router>

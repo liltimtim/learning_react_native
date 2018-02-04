@@ -3,6 +3,7 @@ import { Card, CardItem, Body, Left, Right, Form, Input, Item, Label, Button, Te
 import { StyleSheet } from 'react-native';
 import { connect } from 'react-redux';
 import { emailChanged, passwordChanged, loginUser } from '../actions';
+import LoadingButton from './LoadingButton';
 class SignInForm extends Component {
     constructor() {
         super()
@@ -20,14 +21,6 @@ class SignInForm extends Component {
                     <Text>{error.message}</Text>
                 </CardItem>
             );
-        }
-    }
-
-    _renderLoading() {
-        if(this.props.loading === true) {
-            return <Spinner size='small' color='blue' />;
-        } else {
-            return <Text>Login</Text>;
         }
     }
 
@@ -57,14 +50,14 @@ class SignInForm extends Component {
                     {this._renderError()}
                     <CardItem>
                         <Body>
-                            <Button 
-                                block
-                                    onPress={() => {
-                                        const { email, password } = this.props;
-                                        this.props.loginUser({email, password});
-                                    }}>
-                                {this._renderLoading()}
-                            </Button>
+                            <LoadingButton
+                                buttonText={'Login'}
+                                loading={this.props.loading}
+                                onPress={() => {
+                                    const { email, password } = this.props;
+                                    this.props.loginUser({email, password});
+                                }}>
+                            </LoadingButton>
                         </Body>
                     </CardItem>
                 </Card>
@@ -75,7 +68,6 @@ class SignInForm extends Component {
 }
 
 function mapStateToProps(state) {
-    console.log(state);
     return {
         email: state.auth.email,
         password: state.auth.password,
