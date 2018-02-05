@@ -6,6 +6,7 @@ import EmployeeList from './EmployeeList';
 import { employeeUpdate, employeeCreate, employeeCreatedReset } from '../actions/EmployeeAction';
 import LoadingButton from '../components/LoadingButton';
 import EmployeeForm from '../components/EmployeeForm';
+import { LoadingButtonStyle } from '../Styles';
 class EmployeeCreate extends Component {
   componentWillMount() {
     this.props.employeeCreatedReset();
@@ -23,7 +24,7 @@ class EmployeeCreate extends Component {
           <EmployeeForm 
             {...this.props}
            />
-          <LoadingButton style={{marginTop: 20, marginRight: 20, marginLeft: 20}} 
+          <LoadingButton style={[LoadingButtonStyle.standardMargins]} 
             onPress={ this._onButtonPress.bind(this) }
             loading={this.props.loading}
             buttonText={'Create Employee'}>

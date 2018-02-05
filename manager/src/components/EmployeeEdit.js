@@ -5,6 +5,7 @@ import EmployeeForm from './EmployeeForm';
 import { employeeUpdate, employeeSave, employeeDelete } from '../actions';
 import _ from 'lodash';
 import LoadingButton from '../components/LoadingButton';
+import { LoadingButtonStyle } from '../Styles';
 class EmployeeEdit extends Component {
 
   componentWillMount() {
@@ -15,6 +16,10 @@ class EmployeeEdit extends Component {
   _onButtonPress() {
     const { name, phone, shift } = this.props;
     this.props.employeeSave({ name, phone, shift, uid: this.props.employee.uid });
+  }
+
+  _onButtonFirePress() {
+    this.props.employeeDelete(this.props.employee);
   }
 
   render() {
@@ -28,6 +33,12 @@ class EmployeeEdit extends Component {
             onPress={this._onButtonPress.bind(this)}
             buttonText={'Save Changes'}>
           </LoadingButton>
+          <LoadingButton 
+            style={[LoadingButtonStyle.standardMargins, LoadingButtonStyle.destructive]}
+            loading={this.props.loading}
+            buttonText={'Fire Employee'}
+            onPress={this._onButtonFirePress.bind(this)}
+          />
         </Content>
       </Container>
     );
@@ -39,4 +50,4 @@ function mapStateToProps(state) {
   return { name, phone, shift, loading };
 }
 
-export default connect(mapStateToProps, {employeeUpdate, employeeSave})(EmployeeEdit);
+export default connect(mapStateToProps, {employeeUpdate, employeeSave, employeeDelete})(EmployeeEdit);
